@@ -1,0 +1,64 @@
+.os-mobile-layout {
+    .ion-page {
+        background: #f7f3ee;
+    }
+
+    ion-header .ionic.in-toolbar {
+        --padding-start: 22px;
+        --padding-end: 22px;
+        --padding-top: 16px;
+        --padding-bottom: 4px;
+        --token-bg-surface-default: transparent;
+    }
+
+    ion-content {
+        --ion-background-color: transparent;
+
+        .main-content {
+            padding-inline-end: 16px;
+            padding-inline-start: 16px;
+        }
+    }
+
+    .section-header {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+
+        .section-header-title {
+            font-family: "Fraunces", serif;
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        .section-header-link {
+            --token-text-link-visited: #4a8c60;
+            --ion-text-color: #4a8c60;
+            --token-text-link-default: #4a8c60;
+            --token-text-link-press: #305a3d;
+            --token-border-size-050: transparent;
+
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+
+    .brand-header {
+        .brand-header-text,
+        .brand-header-dot {
+            font-family: "Fraunces", sans-serif;
+            font-size: 22px;
+            font-weight: 700;
+            letter-spacing: -0.48px;
+        }
+
+        .brand-header-text {
+            color: var(--color-neutral-0);
+        }
+        .brand-header-dot {
+            color: var(--color-success-light);
+        }
+    }
+}
+
