@@ -1,0 +1,87 @@
+.masthead {
+    background: linear-gradient(160deg, #1a3528 0%, #2d5a3d 55%, #3d7a52 100%);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    justify-content: flex-end;
+    margin-inline: -16px;
+    overflow: hidden;
+    padding: 16px 0 28px;
+    padding-inline: 24px;
+    position: relative;
+
+    &::before,
+    &::after {
+        border: 1px solid rgba(255, 255, 255, 0.06);
+        border-radius: 50%;
+        content: "";
+        position: absolute;
+    }
+
+    &::before {
+        height: 340px;
+        right: -100px;
+        top: -120px;
+        width: 340px;
+    }
+
+    &::after {
+        height: 200px;
+        right: -30px;
+        top: -50px;
+        width: 200px;
+    }
+
+    .masthead-header {
+        margin-bottom: 32px;
+
+        ion-chip {
+            background: transparent;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            color: rgba(255, 255, 255, 0.4);
+            font-size: 11px;
+            font-size: 10px;
+            height: 20px;
+            letter-spacing: 1.2px;
+            padding-inline: 10px;
+            text-transform: uppercase;
+        }
+    }
+
+    .masthead-content {
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 10px;
+
+        .masthead-content-top {
+            color: rgba(255, 255, 255, 0.55);
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 1.15px;
+            text-transform: uppercase;
+        }
+
+        .masthead-content-middle {
+            color: #fff;
+            font-size: 24px;
+            font-weight: 700;
+            letter-spacing: -0.48px;
+            line-height: 1.2;
+            margin-bottom: 18px;
+            position: relative;
+            z-index: 1;
+        }
+    }
+
+    .masthead-visual {
+        bottom: 40px;
+        font-size: 144px;
+        opacity: 0.06;
+        pointer-events: none;
+        position: absolute;
+        right: -10px;
+        transform: rotate(-12deg);
+        z-index: 0;
+    }
+}
+
