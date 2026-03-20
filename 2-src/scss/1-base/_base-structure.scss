@@ -6,11 +6,40 @@
 
 :root {
     /* Color - Brand */
-    --color-primary-dark: #32006b;
-    --color-primary: #6400dc;
-    --color-primary-light: #c199f1;
+
+    --color-primary-light: #628e75;
+    --color-primary: #3b7252;
+    --color-primary-dark: #295039;
+
+    --token-text-primary: var(--color-primary);
 
     --color-secondary: #2d9fb2;
+
+    --color-muted: var(--color-neutral-7);
+
+    --color-info: #1a56f0;
+    --color-info-light: #9fc9df;
+
+    --color-success: #20b16d;
+    --color-success-light: #9fdfaa;
+
+    --color-warning: #f59f0a;
+    --color-warning-light: #dfd09f;
+
+    --color-error: #dc2828;
+    --color-error-light: #df9f9f;
+
+    --color-neutral-0:#ffffff;
+    --color-neutral-1:#f8f9fa;
+    --color-neutral-2:#f1f3f5;
+    --color-neutral-3:#e9ecef;
+    --color-neutral-4:#dee2e6;
+    --color-neutral-5:#ced4da;
+    --color-neutral-6:#adb5bd;
+    --color-neutral-7:#6a7178;
+    --color-neutral-8:#4f575e;
+    --color-neutral-9:#272b30;
+    --color-neutral-10:#101213;
 
     --color-primary-hover: var(--color-primary-dark);
     --color-primary-selected: var(--color-primary-dark);
@@ -37,11 +66,6 @@
 
 .highlight-styles,
 .os-dark-mode {
-    
-    --color-primary-dark: #6400dc;
-    --color-primary: #a799ff;
-    --color-primary-light: #e2c9ff;
-
     --color-neutral-0: #0e0e0e;
     --color-neutral-1: #141414;
     --color-neutral-2: #1f1f1f;
@@ -64,11 +88,6 @@
 }
 
 .os-dark-mode .highlight-styles {
-
-  --color-primary-dark: #32006b;
-  --color-primary: #6400dc;
-  --color-primary-light: #c199f1;
-
   --color-neutral-0:#ffffff;
   --color-neutral-1:#f8f9fa;
   --color-neutral-2:#f1f3f5;

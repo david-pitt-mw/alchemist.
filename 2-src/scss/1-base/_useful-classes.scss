@@ -295,10 +295,16 @@
 .text-info-light { color: var(--color-info-light); }
 .text-info { color: var(--color-info); }
 
-.font-size-m {
-    font-size: var(--font-size-m);
+.italic { font-style: italic; }
+
+.uppercase{
+    font-weight: 700;
+    letter-spacing: 0.96px;
+    text-transform: uppercase;
 }
 
-.display-none {
-    display: none;
-}
+.display-none { display: none; }
+
+.font-fraunces { font-family: "Fraunces", sans-serif; }
+
+.display-none { display: none; }

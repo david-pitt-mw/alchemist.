@@ -73,7 +73,7 @@ function createThemeConfig({ entryScss, outDir, cssFileName }) {
 }
 
 export default createThemeConfig({
-    entryScss: "2-src/scss/ClientName_Theme.scss",
+    entryScss: "2-src/scss/Alchemist.scss",
     outDir: "1-dist",
-    cssFileName: "ClientName_Theme",
+    cssFileName: "Alchemist",
 });
