@@ -1,0 +1,24 @@
+.os-mobile-bottom-bar {
+    padding-block-end: 32px;
+    padding-block-start: 16px;
+    padding-inline-end: 16px;
+    padding-inline-start: 16px;
+
+    .os-mobile-bottom-bar-item.tab-selected {
+        background: color-mix(in srgb, var(--color-primary) 20%, transparent);
+        color: var(--color-primary);
+    }
+
+    .os-mobile-bottom-bar-item.ion-activated {
+        background: color-mix(in srgb, var(--color-primary) 10%, transparent);
+        color: var(--color-primary);
+    }
+
+    .os-mobile-bottom-bar-item.ion-activated::part(native) {
+        color: var(--color-primary);
+        &::after {
+            background: transparent;
+        }
+    }
+}
+
