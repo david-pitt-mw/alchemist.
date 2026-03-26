@@ -1,0 +1,35 @@
+.hero-header {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-bottom: 18px;
+
+    .hero-header-label {
+        color: var(--color-primary);
+        font-size: var(--font-size-label);
+        font-weight: var(--font-extrabold);
+        letter-spacing: 1.6px;
+        text-transform: uppercase;
+    }
+
+    .hero-header-title {
+        font-family: "Fraunces", serif;
+        font-size: var(--font-size-h2);
+        font-weight: var(--font-bold);
+        letter-spacing: -0.48px;
+        line-height: 1.1;
+        margin-bottom: 6px;
+        margin-top: 4px;
+
+        &-accent {
+            font-style: italic;
+        }
+    }
+
+    .hero-header-description {
+        color: var(--color-neutral-7);
+        font-size: var(--font-size-s);
+        line-height: 1.5;
+        margin-top: 6px;
+    }
+}
+
