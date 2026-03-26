@@ -63,13 +63,19 @@
 
         .masthead-content-middle {
             color: #fff;
-            font-size: 24px;
+            font-size: 30px;
             font-weight: 700;
             letter-spacing: -0.48px;
             line-height: 1.2;
             margin-bottom: 18px;
             position: relative;
             z-index: 1;
+        }
+
+        .masthead-content-bottom {
+            ion-button {
+                max-width: 180px;
+            }
         }
     }
 
@@ -84,4 +90,3 @@
         z-index: 0;
     }
 }
-
