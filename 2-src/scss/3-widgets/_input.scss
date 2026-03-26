@@ -1,0 +1,22 @@
+ion-input {
+    &.input-fill-outline.sc-ion-input-ionic-h {
+        --background: #f0ebe3;
+        --border-color: #e4ddd4;
+        --border-width: 2px;
+
+        &.has-focus {
+            --background: var(--color-neutral-0);
+            --border-color: var(--color-primary);
+            --border-width: 2px;
+
+            .native-wrapper {
+                box-shadow: 0 0 0 3px rgba(45, 90, 61, 0.1);
+            }
+        }
+    }
+
+    .label-text-wrapper.sc-ion-input-ionic:has(.ion-display-contents:empty) {
+        display: none;
+    }
+}
+
