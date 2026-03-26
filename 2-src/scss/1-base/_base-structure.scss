@@ -29,17 +29,17 @@
     --color-error: #dc2828;
     --color-error-light: #df9f9f;
 
-    --color-neutral-0:#ffffff;
-    --color-neutral-1:#f8f9fa;
-    --color-neutral-2:#f1f3f5;
-    --color-neutral-3:#e9ecef;
-    --color-neutral-4:#dee2e6;
-    --color-neutral-5:#ced4da;
-    --color-neutral-6:#adb5bd;
-    --color-neutral-7:#6a7178;
-    --color-neutral-8:#4f575e;
-    --color-neutral-9:#272b30;
-    --color-neutral-10:#101213;
+    --color-neutral-0: #ffffff;
+    --color-neutral-1: #f8f9fa;
+    --color-neutral-2: #f1f3f5;
+    --color-neutral-3: #e9ecef;
+    --color-neutral-4: #dee2e6;
+    --color-neutral-5: #ced4da;
+    --color-neutral-6: #adb5bd;
+    --color-neutral-7: #6a7178;
+    --color-neutral-8: #4f575e;
+    --color-neutral-9: #272b30;
+    --color-neutral-10: #101213;
 
     --color-primary-hover: var(--color-primary-dark);
     --color-primary-selected: var(--color-primary-dark);
@@ -47,7 +47,6 @@
     --header-size: 56px;
     --header-size-content: 48px;
     --side-menu-size: 280px;
-
 
     --font-size-display: #{scss-functions.px-to-rem(36px)};
 
@@ -57,11 +56,16 @@
     --font-size-h4: #{scss-functions.px-to-rem(22px)};
     --font-size-h5: #{scss-functions.px-to-rem(20px)};
     --font-size-h6: #{scss-functions.px-to-rem(18px)};
-    
+
     --font-size-base: #{scss-functions.px-to-rem(16px)};
     --font-size-s: #{scss-functions.px-to-rem(14px)};
     --font-size-xs: #{scss-functions.px-to-rem(12px)};
     --font-size-label: #{scss-functions.px-to-rem(11px)};
+
+    --font-base: 400;
+    --font-medium: 500;
+    --font-bold: 600;
+    --font-extrabold: 800;
 }
 
 .highlight-styles,
@@ -75,10 +79,10 @@
     --color-neutral-6: #858585;
     --color-neutral-7: #c9c9c9;
     --color-neutral-8: #d7d7d7;
-    --color-neutral-9: #F8F9FA;
+    --color-neutral-9: #f8f9fa;
     --color-neutral-10: #fff;
 
-     --header-color: var(--color-neutral-3);
+    --header-color: var(--color-neutral-3);
 
     color: var(--color-neutral-9);
 }
@@ -88,16 +92,15 @@
 }
 
 .os-dark-mode .highlight-styles {
-  --color-neutral-0:#ffffff;
-  --color-neutral-1:#f8f9fa;
-  --color-neutral-2:#f1f3f5;
-  --color-neutral-3:#e9ecef;
-  --color-neutral-4:#dee2e6;
-  --color-neutral-5:#ced4da;
-  --color-neutral-6:#adb5bd;
-  --color-neutral-7:#6a7178;
-  --color-neutral-8:#4f575e;
-  --color-neutral-9:#272b30;
-  --color-neutral-10:#101213;
-
+    --color-neutral-0: #ffffff;
+    --color-neutral-1: #f8f9fa;
+    --color-neutral-2: #f1f3f5;
+    --color-neutral-3: #e9ecef;
+    --color-neutral-4: #dee2e6;
+    --color-neutral-5: #ced4da;
+    --color-neutral-6: #adb5bd;
+    --color-neutral-7: #6a7178;
+    --color-neutral-8: #4f575e;
+    --color-neutral-9: #272b30;
+    --color-neutral-10: #101213;
 }
