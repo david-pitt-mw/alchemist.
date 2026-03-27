@@ -295,7 +295,31 @@
 .text-info-light { color: var(--color-info-light); }
 .text-info { color: var(--color-info); }
 
-.text-orange { color: #c8521f; }
+.text-orange-light { color: var(--color-orange-light); }
+.text-orange { color: var(--color-orange); }
+
+.text-muted { color: var(--color-muted); }
+
+.font-size-display { font-size: var(--font-size-display); }
+
+.font-size-h1 { font-size: var(--font-size-h1); }
+.font-size-h2 { font-size: var(--font-size-h2); }
+.font-size-h3 { font-size: var(--font-size-h3); }
+.font-size-h4 { font-size: var(--font-size-h4); }
+.font-size-h5 { font-size: var(--font-size-h5); }
+.font-size-h6 { font-size: var(--font-size-h6); }
+
+.font-size-base { font-size: var(--font-size-base); }
+.font-size-s { font-size: var(--font-size-s); }
+.font-size-xs { font-size: var(--font-size-xs); }
+.font-size-label { font-size: var(--font-size-label); }
+
+.font-base { font-weight: var(--font-base); }
+.font-medium { font-weight: var(--font-medium); }
+.font-bold { font-weight: var(--font-bold); }
+.font-extrabold { font-weight: var(--font-extrabold); }
+
+.decoration-none { text-decoration: none !important; }
 
 .italic { font-style: italic; }
 
