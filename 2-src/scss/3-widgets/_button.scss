@@ -1,23 +1,50 @@
 ion-button {
+    .button-label {
+        font-weight: var(--font-bold);
+    }
+
+    &:not(.button-has-icon-only) ion-icon {
+        border-radius: 100%;
+        padding: 4px;
+        background: transparent !important;
+    }
+
     &.ion-color-primary-light {
         --ion-color-base: #fff !important;
         --ion-color-shade: #d1d1d1 !important;
         --ion-color-contrast: var(--color-primary-dark) !important;
 
-        .button-label {
-            font-weight: var(--font-bold);
+        &:not(.button-has-icon-only) {
+            ion-icon {
+                background: color-mix(
+                    in srgb,
+                    var(--color-primary-light) 20%,
+                    transparent
+                );
+            }
         }
+    }
 
-        ion-icon {
-            background: color-mix(
-                in srgb,
-                var(--color-primary-light) 20%,
-                transparent
-            );
-            border-radius: 100%;
-            margin-left: 8px;
-            margin-top: 2px;
-            padding: 4px;
+    &.ion-color-secondary {
+        --ion-color-secondary: linear-gradient(
+            135deg,
+            var(--color-secondary),
+            var(--color-secondary-alt)
+        ) !important;
+        --ion-color-secondary-shade: color-mix(
+            in srgb,
+            var(--color-secondary) 90%,
+            #000
+        );
+
+        &:not(.button-has-icon-only) {
+            ion-icon {
+                background: color-mix(
+                    in srgb,
+                    var(--color-secondary) 20%,
+                    transparent
+                );
+            }
         }
     }
 }
