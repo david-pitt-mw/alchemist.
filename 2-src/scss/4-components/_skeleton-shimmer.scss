@@ -1,0 +1,29 @@
+.skeleton-shimmer {
+    --skeleton-base: #f0ebe3;
+    --skeleton-shimmer: #e4ddd4;
+
+    background-color: var(--skeleton-base);
+    background-image: linear-gradient(
+        90deg,
+        var(--skeleton-base) 0%,
+        var(--skeleton-shimmer) 50%,
+        var(--skeleton-base) 100%
+    );
+    background-size: 200% 100%;
+    animation: skeleton-pulse 1.5s infinite linear;
+    display: block;
+}
+
+.skeleton-shimmer.circle {
+    border-radius: 50% !important;
+}
+
+@keyframes skeleton-pulse {
+    0% {
+        background-position: -200% 0;
+    }
+    100% {
+        background-position: 200% 0;
+    }
+}
+
