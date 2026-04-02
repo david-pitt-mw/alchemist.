@@ -3,6 +3,13 @@
     flex-flow: column nowrap;
     margin-bottom: 18px;
 
+    .hero-header-label:empty,
+    .hero-header-title:empty,
+    .hero-header-title-accent:empty,
+    .hero-header-description:empty {
+        display: none;
+    }
+
     .hero-header-label {
         color: var(--color-primary);
         font-size: var(--font-size-label);
