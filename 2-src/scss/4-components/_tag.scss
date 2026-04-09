@@ -1,0 +1,17 @@
+ion-chip {
+    padding: 6px 12px;
+
+    &:not(.no-border) {
+        border: 1px solid;
+    }
+
+    &[size="small"] {
+        padding: 0px 8px;
+    }
+
+    &.ion-color-secondary[hue="subtle"] {
+        --ion-color-secondary-subtle: var(--color-secondary-light);
+        --ion-color-secondary-subtle-contrast: var(--color-secondary);
+    }
+}
+

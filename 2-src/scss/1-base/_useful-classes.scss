@@ -319,6 +319,8 @@
 .font-bold { font-weight: var(--font-bold); }
 .font-extrabold { font-weight: var(--font-extrabold); }
 
+.flex-space-between { align-items: center; display: flex; justify-content: space-between; }
+
 .decoration-none { text-decoration: none !important; }
 
 .italic { font-style: italic; }
