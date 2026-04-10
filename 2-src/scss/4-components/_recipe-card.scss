@@ -12,7 +12,7 @@
         font-size: var(--font-size-h6);
         font-weight: var(--font-bold);
         letter-spacing: -0.02em;
-        height: 23px;
+        min-height: 23px;
     }
 
     .recipe-card-details {
@@ -22,7 +22,7 @@
         font-weight: var(--font-bold);
         gap: 14px;
         margin-bottom: 4px;
-        height: 15px;
+        min-height: 15px;
     }
 
     .recipe-card-description {
